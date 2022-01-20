@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:orientation="vertical"
+    ohos:width="match_parent">
+    <TextField
+        ohos:id="$+id:textField"
+        ohos:height="30vp"
+        ohos:width="match_parent"
+        ohos:left_margin="5vp"
+        ohos:right_margin="5vp"
+        ohos:text_alignment="vertical_center"
+        ohos:text="http://jianguojs.cn/"
+        ohos:hint="请输入网址"
+        ohos:basement="#000099"
+        ohos:text_size="20fp">
+    </TextField>
+    <DirectionalLayout
+        ohos:height="510vp"
+        ohos:width="match_parent"
+        ohos:top_margin="5vp"
+        ohos:background_element="$graphic:background_button"
+        ohos:orientation="horizontal">
+        <ohos.agp.components.webengine.WebView
+            ohos:margin="5vp"
+            ohos:height="500vp"
+            ohos:id="$+id:webview"
+            ohos:width="match_parent"/>
+    </DirectionalLayout>
+    <Button
+        ohos:id="$+id:loadUrl"
+        ohos:height="30vp"
+        ohos:left_margin="5vp"
+        ohos:right_margin="5vp"
+        ohos:top_margin="5vp"
+        ohos:text="Load URL"
+        ohos:background_element="$graphic:background_button"
+        ohos:text_size="20fp"
+        ohos:width="match_parent">
+    </Button>
+    <DirectionalLayout
+        ohos:height="30vp"
+        ohos:width="match_parent"
+        ohos:top_margin="5vp"
+        ohos:orientation="horizontal">
+        <Button
+            ohos:id="$+id:goback"
+            ohos:height="match_parent"
+            ohos:width="1"
+            ohos:left_margin="5vp"
+            ohos:right_margin="5vp"
+            ohos:weight="1"
+            ohos:text="Go Back"
+            ohos:background_element="$graphic:background_button"
+            ohos:text_size="20fp">
+        </Button>
+        <Button
+            ohos:id="$+id:forward"
+            ohos:height="match_parent"
+            ohos:width="1"
+            ohos:text="GO Forward"
+            ohos:right_margin="5vp"
+            ohos:left_margin="5vp"
+            ohos:weight="1"
+            ohos:background_element="$graphic:background_button"
+            ohos:text_size="20fp">
+        </Button>
+    </DirectionalLayout>
+    <Button
+        ohos:width="match_parent"
+        ohos:id="$+id:load_local_url"
+        ohos:height="30vp"
+        ohos:text="Load Local HTML"
+        ohos:left_margin="5vp"
+        ohos:top_margin="5vp"
+        ohos:right_margin="5vp"
+        ohos:background_element="$graphic:background_button"
+        ohos:text_size="20fp">
+    </Button>
+    <Button
+        ohos:id="$+id:callJS"
+        ohos:height="30vp"
+        ohos:width="match_parent"
+        ohos:left_margin="5vp"
+        ohos:top_margin="5vp"
+        ohos:right_margin="5vp"
+        ohos:text="Send Message to Local HTML"
+        ohos:background_element="$graphic:background_button"
+        ohos:text_size="20fp">
+    </Button>
+</DirectionalLayout>

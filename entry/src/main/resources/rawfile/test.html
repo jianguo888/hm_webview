@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <title>本地html</title>
+    <body onload="hello">
+        <br>
+        <h1 id="helloName">这是一个本地HTML页面</h1>
+        <br>
+        <button id="button" onclick="sendData()" style="background-color:#70DBDB;height:30px;">调用Java方法</button>
+
+        <script type="text/javascript">
+    // 应用调用Web页面
+    function callJS(message) {
+        alert(message);
+    }
+
+    function sendData() {
+        if (window.JsCallJava && window.JsCallJava.call) {
+            // Web页面调用应用
+            var rst = window.JsCallJava.call("这个是来自本地Web页面的消息");
+        } else {
+            alert('发送消息给WebviewSlice失败');
+        }
+    }
+    </script>
+    </body>
+</html>
