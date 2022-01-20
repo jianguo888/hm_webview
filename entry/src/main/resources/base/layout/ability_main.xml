@@ -34,7 +34,7 @@
         ohos:left_margin="5vp"
         ohos:right_margin="5vp"
         ohos:top_margin="5vp"
-        ohos:text="Load URL"
+        ohos:text="打开网址"
         ohos:background_element="$graphic:background_button"
         ohos:text_size="20fp"
         ohos:width="match_parent">
@@ -51,7 +51,7 @@
             ohos:left_margin="5vp"
             ohos:right_margin="5vp"
             ohos:weight="1"
-            ohos:text="Go Back"
+            ohos:text="后退"
             ohos:background_element="$graphic:background_button"
             ohos:text_size="20fp">
         </Button>
@@ -59,7 +59,7 @@
             ohos:id="$+id:forward"
             ohos:height="match_parent"
             ohos:width="1"
-            ohos:text="GO Forward"
+            ohos:text="前进"
             ohos:right_margin="5vp"
             ohos:left_margin="5vp"
             ohos:weight="1"
@@ -71,7 +71,7 @@
         ohos:width="match_parent"
         ohos:id="$+id:load_local_url"
         ohos:height="30vp"
-        ohos:text="Load Local HTML"
+        ohos:text="加载本地Html"
         ohos:left_margin="5vp"
         ohos:top_margin="5vp"
         ohos:right_margin="5vp"
@@ -85,7 +85,7 @@
         ohos:left_margin="5vp"
         ohos:top_margin="5vp"
         ohos:right_margin="5vp"
-        ohos:text="Send Message to Local HTML"
+        ohos:text="发送消息给本地html"
         ohos:background_element="$graphic:background_button"
         ohos:text_size="20fp">
     </Button>
