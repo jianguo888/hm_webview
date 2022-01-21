@@ -26,6 +26,7 @@ public class MainAbilitySlice extends AbilitySlice {
     @Override
     public void onStart(Intent intent) {
         super.onStart(intent);
+        //加载XML布局1
         super.setUIContent(ResourceTable.Layout_ability_main);
         initView();
     }
